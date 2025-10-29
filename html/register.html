@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <h1 class="title">BITCOIN MEETINGS DIRECTORY SV</h1>
+    <form class="form">
+        <h2 class="form__title">Registro</h2>
+        <div class="form__group">
+            <label for="name-input" class="form__label">Nombre</label>
+            <input type="text" id="name-input" class="form__input" placeholder="Nombre" required>
+        </div>
+        <div class="form__group">
+            <label for="email-input" class="form__label">Email</label>
+            <input type="text" id="email-input" class="form__input" placeholder="Email" required>
+        </div>
+        <div class="form__group">
+            <label for="password-input" class="form__label">Contraseña</label>
+            <input type="text" id="password-input" class="form__input" placeholder="Contraseña" required>
+        </div>
+        <p class="form__message" id="register-message"></p>
+        <button class="form__button">Registrarse</button>
+    </form>
+    <script src="../dist/register/register.js" type="module"></script>
+</body>
+</html>
